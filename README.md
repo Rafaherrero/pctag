@@ -9,7 +9,7 @@ Los sistemas de Inteligencia Artificial necesitan miles/millones de casos de los
 
 Sin embargo, obtener estos datos previamente etiquetado requiere de un gran trabajo humano, por lo que con este proyecto se plantea una aplicación web para aligerar este proceso. *PCTAG* genera casos de manera aleatoria relacionados con el desarrollo de habilidades de Pensamiento Computacional, de manera que un profesional pueda indicar si esa persona debe continuar con el concepto que estaba trabajando, volver al concepto anterior o pasar el siguiente. Esta información servirá para entrenar un sistema de aprendizaje adaptativo basado en emociones para el entrenamiento de habilidades de Pensamiento Computacional [1].
 
-[1] Herrero-Álvarez, R. (2023). Development of an open-source emotion-based adaptive learning support system using computational thinking activities. *Proceedings of the 2023 Conference on Innovation and Technology in Computer Science Education V. 2*, 601-602.  [https://doi.org/10.1145/3587103.3594141](https://doi.org/10.1145/3587103.3594141)
+[1] Herrero-Álvarez, R. (2023). Development of an open-source emotion-based adaptive learning support system using computational thinking activities. *Proceedings of the 2023 Conference on Innovation and Technology in Computer Science Education V. 2*, 601-602.  [https://doi.org/10.1145/3587103.3594141](https://doi.org/10.1145/3587103.3594141).
 
 ## Descripción
 
@@ -33,7 +33,7 @@ Con esta información, un profesional deberá marcar si esa persona debe realiza
 <p align="center"><em>GIF mostrando el funcionamiento de PCTAG</em></p>
 
 ## Instalación
-*PCTAG* utiliza Django como framework para el desarrollo de la aplicación web, por lo que es indispensable que lo tengamos instalado en nuestro sistema, comenzando con Python y, preferiblemente, un gestor de paquetes como *pip*. Puedes consultar como instalar ambos desde la página web oficial de Python: [Instalar Python](https://wiki.python.org/moin/BeginnersGuide/Download); [Instalar *pip*](https://pip.pypa.io/en/stable/installation/).
+*PCTAG* utiliza Django como framework para el desarrollo de la aplicación web, por lo que es indispensable que lo tengamos instalado en nuestro sistema, comenzando con Python y, preferiblemente, un gestor de paquetes como *pip*. Puedes consultar como instalar ambos desde las páginas web oficiales: [Instalar Python](https://wiki.python.org/moin/BeginnersGuide/Download); [Instalar *pip*](https://pip.pypa.io/en/stable/installation/).
 
 Una vez lo tengamos, es necesario ejecutar el siguiente comando para instalarlo:
 ```console
@@ -71,6 +71,7 @@ Una vez terminado los pasos de instalación, nos situaremos en la carpeta de `mi
 ```console
 $ python  manage.py  runserver
 ```
+
 Cabe mencionar que se ha utilizado Django para el desarrollo de esta aplicación por su gran versatilidad y facilidad de implementación. Es por ello que se plantean algunas líneas futuras como el uso de bases de datos (como SQLite) para el almacenamiento de los resultados de etiquetado, o la gestión de usuarios de manera que el usuario final no tenga que desplegar la aplicación, si no simplemente acceder a una página web y desde ahí realizar el etiquetado.
 
 **Proyecto realizado por [Rafael Herrero Álvarez](http://rafaherrero.com/).**
