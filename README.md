@@ -1,2 +1,6 @@
-# pctag
-Repositorio de la aplicación PCTAG
+# PCTAG - Una aplicación para etiquetar casos relacionados con el Pensamiento Computacional
+Los sistemas de Inteligencia Artificial necesitan miles/millones de casos de los que extraer patrones con los que posteriormente calcular una salida. Una de las técnicas más utilizadas se basa en el aprendizaje supervisado, donde los datos están etiquetados para poder determinar correctamente cuál es la salida esperada.
+
+Sin embargo, obtener estos datos previamente etiquetado requiere de un gran trabajo humano, por lo que con este proyecto se plantea una aplicación web para aligerar este proceso. *PCTAG* genera casos de manera aleatoria relacionados con el desarrollo de habilidades de Pensamiento Computacional, de manera que un profesional pueda indicar si esa persona debe continuar con el concepto que estaba trabajando, volver al concepto anterior o pasar el siguiente. Esta información servirá para entrenar un sistema de aprendizaje adaptativo basado en emociones para el entrenamiento de habilidades de Pensamiento Computacional [1].
+
+[1] Herrero-Álvarez, R. (2023). Development of an open-source emotion-based adaptive learning support system using computational thinking activities. *Proceedings of the 2023 Conference on Innovation and Technology in Computer Science Education V. 2*, 601-602.  [https://doi.org/10.1145/3587103.3594141](https://doi.org/10.1145/3587103.3594141)
