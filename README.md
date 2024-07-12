@@ -28,7 +28,7 @@ Sin embargo, obtener estos datos previamente etiquetado requiere de un gran trab
 Con esta información, un profesional deberá marcar si esa persona debe realizar ejercicios relacionados con un concepto anterior, reforzarlo con más actividades o pasar al siguiente. Cada vez que marque una opción se recargará el caso con nuevos valores aleatorios y aumentará el contador de casos etiquetados. Una vez termine, podrá darle al botón de descargar, donde se generará un fichero JSON con todos los datos.
 
 <p align="center">
-  <img src="https://github.com/Rafaherrero/pctag/blob/main/imgs/Captura_pctag.png" style="width:300px"/>
+  <img src="https://github.com/Rafaherrero/pctag/blob/main/imgs/Captura_pctag.png" style="width:700px"/>
 </p>
 <p align="center"><em>Captura de pantalla de PCTAG</em></p>
 
