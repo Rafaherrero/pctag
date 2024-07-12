@@ -28,9 +28,9 @@ Sin embargo, obtener estos datos previamente etiquetado requiere de un gran trab
 Con esta información, un profesional deberá marcar si esa persona debe realizar ejercicios relacionados con un concepto anterior, reforzarlo con más actividades o pasar al siguiente. Cada vez que marque una opción se recargará el caso con nuevos valores aleatorios y aumentará el contador de casos etiquetados. Una vez termine, podrá darle al botón de descargar, donde se generará un fichero JSON con todos los datos.
 
 <p align="center">
-  <img src="https://github.com/Rafaherrero/pctag/blob/main/imgs/Captura_pctag.png" style="width:700px"/>
+  <img src="https://github.com/Rafaherrero/pctag/blob/main/imgs/pctag.gif" style="width:700px"/>
 </p>
-<p align="center"><em>Captura de pantalla de PCTAG</em></p>
+<p align="center"><em>GIF mostrando el funcionamiento de PCTAG</em></p>
 
 ## Instalación
 *PCTAG* utiliza Django como framework para el desarrollo de la aplicación web, por lo que es indispensable que lo tengamos instalado en nuestro sistema, comenzando con Python y, preferiblemente, un gestor de paquetes como *pip*. Puedes consultar como instalar ambos desde la página web oficial de Python: [Instalar Python](https://wiki.python.org/moin/BeginnersGuide/Download); [Instalar *pip*](https://pip.pypa.io/en/stable/installation/).
